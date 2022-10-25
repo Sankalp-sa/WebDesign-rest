@@ -38,6 +38,39 @@
             padding-bottom: 17%;
             
         }
+        
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .content1{
+            background-color: bisque;
+            border: 2px solid black;
+            padding: 250px 125px;
+        }
+        .main{
+            background-color: bisque;
+            border: 2px solid black;
+            padding: 250px 125px;
+        }
+        .content2{
+            background-color: bisque;
+            border: 2px solid black;
+            padding: 250px 125px;
+        }
+        .footer{
+            background-color:black;
+            color: white;
+            margin-top: 12px;
+            text-align: center;
+            padding: 5px;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
@@ -51,5 +84,22 @@
             </ul>
         </nav>
     </header>
+    <body>
+        
+        <div class="container">
+            <div class="content1">
+                content1
+            </div>
+            <div class="main">
+                Main content
+            </div>
+            <div class="content2">
+                content2
+            </div>
+        </div>
+
+        <footer class="footer">Footer content</footer>
+
+    </body>
 </body>
 </html>
